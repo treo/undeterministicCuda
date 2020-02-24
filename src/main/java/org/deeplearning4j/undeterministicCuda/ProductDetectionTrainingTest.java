@@ -27,7 +27,7 @@ public class ProductDetectionTrainingTest {
     public static final int WIDTH = GRID_W * GRID_PXS;
     public static final int HEIGHT = GRID_H * GRID_PXS;
     public static final int MAX_EPOCHS_WITH_NO_IMPROVEMENT = 100;
-    public static final int MAX_EPOCHS = 1000;
+    public static final int MAX_EPOCHS = 3;
 
     public static final boolean DATA_AUGMENTATION = false;
 

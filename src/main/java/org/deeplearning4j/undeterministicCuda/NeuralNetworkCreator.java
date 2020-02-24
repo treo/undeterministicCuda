@@ -89,7 +89,7 @@ public class NeuralNetworkCreator {
                 .weightInit(WeightInit.XAVIER)
                 .convolutionMode(ConvolutionMode.Same)
                 .cudnnAlgoMode(ConvolutionLayer.AlgoMode.USER_SPECIFIED)
-                .trainingWorkspaceMode(WorkspaceMode.ENABLED)
+                .trainingWorkspaceMode(WorkspaceMode.NONE)
                 .list()
 
                 .layer(new ConvolutionLayer.Builder().kernelSize(3, 3).stride(1, 1).nOut(16).hasBias(false).cudnnAlgoMode(ConvolutionLayer.AlgoMode.USER_SPECIFIED).cudnnBwdDataMode(ConvolutionLayer.BwdDataAlgo.ALGO_1).cudnnBwdFilterMode(ConvolutionLayer.BwdFilterAlgo.ALGO_1).build())

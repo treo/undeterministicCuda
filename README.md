@@ -1,4 +1,11 @@
-Run `ProductDetectionTrainingTest`. 
+To run:
+
+```
+git clone https://github.com/treo/undeterministicCuda.git
+cd undeterministicCuda
+chmod +x run.sh
+./run.sh
+```
 
 # Model
 
